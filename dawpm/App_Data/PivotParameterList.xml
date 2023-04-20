@@ -1,115 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfDataGridVisualization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <DataGridVisualization>
-    <Name>Beverages.csv</Name>
-    <CSVFile>Beverages.csv</CSVFile>
-    <ChartTitles>
-      <string>Beverages.csv (Beverages.csv)</string>
-      <string />
-    </ChartTitles>
-    <AggregatorName>Sum</AggregatorName>
-    <rendererName>Table</rendererName>
-    <ChartType>Bar</ChartType>
-    <ChartStyle>3D</ChartStyle>
-    <ChartPalette>0</ChartPalette>
-    <ChartWidth>0</ChartWidth>
-    <ChartHeight>0</ChartHeight>
-    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
-    <Cols>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Year</DisplayName>
-        <SourceName>Year</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Cols>
-    <Rows>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Flow</DisplayName>
-        <SourceName>Flow</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Rows>
-    <Vals>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Trade (USD)</DisplayName>
-        <SourceName>Trade (USD)</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Vals>
-    <FilterColumn>
-      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-      <Index>0</Index>
-      <UniqueValues>0</UniqueValues>
-      <ColumnValues />
-    </FilterColumn>
-    <IncludeValues />
-    <ExcluedValues />
-    <SeriesDataList />
-  </DataGridVisualization>
-  <DataGridVisualization>
-    <Name>Trade By Commodity</Name>
-    <CSVFile>Beverages.csv</CSVFile>
-    <ChartTitles>
-      <string>Trade By Commodity</string>
-      <string>Over 4 years</string>
-    </ChartTitles>
-    <AggregatorName>Sum</AggregatorName>
-    <rendererName>Table</rendererName>
-    <ChartType>Bar</ChartType>
-    <ChartStyle>3D</ChartStyle>
-    <ChartPalette>10</ChartPalette>
-    <ChartWidth>0</ChartWidth>
-    <ChartHeight>0</ChartHeight>
-    <BackgroundImage />
-    <Cols>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Commodity</DisplayName>
-        <SourceName>Commodity</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Cols>
-    <Rows>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Year</DisplayName>
-        <SourceName>Year</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Rows>
-    <Vals>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Trade (USD)</DisplayName>
-        <SourceName>Trade (USD)</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Vals>
-    <FilterColumn>
-      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-      <Index>0</Index>
-      <UniqueValues>0</UniqueValues>
-      <ColumnValues />
-    </FilterColumn>
-    <IncludeValues />
-    <ExcluedValues />
-    <SeriesDataList />
-  </DataGridVisualization>
+<ArrayOfDataGridVisualization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <DataGridVisualization>
     <Name>legislators.csv</Name>
     <CSVFile>legislators.csv</CSVFile>
@@ -1238,61 +1128,6 @@
     <SeriesDataList />
   </DataGridVisualization>
   <DataGridVisualization>
-    <Name>PartySummary.csv</Name>
-    <CSVFile>PartySummary.csv</CSVFile>
-    <ChartTitles>
-      <string>PartySummary.csv (PartySummary.csv)</string>
-      <string />
-    </ChartTitles>
-    <AggregatorName>Integer Sum</AggregatorName>
-    <rendererName>Table</rendererName>
-    <ChartType>Column</ChartType>
-    <ChartStyle>2D</ChartStyle>
-    <ChartPalette>1</ChartPalette>
-    <ChartWidth>0</ChartWidth>
-    <ChartHeight>0</ChartHeight>
-    <BackgroundImage />
-    <Cols>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Day</DisplayName>
-        <SourceName>Day</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Cols>
-    <Rows>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>AvgBirthdayChildren</DisplayName>
-        <SourceName>AvgBirthdayChildren</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Rows>
-    <Vals>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>Birthday</DisplayName>
-        <SourceName>Birthday</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Vals>
-    <FilterColumn>
-      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-      <Index>0</Index>
-      <UniqueValues>0</UniqueValues>
-      <ColumnValues />
-    </FilterColumn>
-    <IncludeValues />
-    <ExcluedValues />
-    <SeriesDataList />
-  </DataGridVisualization>
-  <DataGridVisualization>
     <Name>SaturdayOrders.csv</Name>
     <CSVFile>SaturdayOrders.csv</CSVFile>
     <ChartTitles />
@@ -1326,6 +1161,169 @@
         <ColumnDisplayFormat>Number</ColumnDisplayFormat>
         <DisplayName />
         <SourceName />
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>PartySummary.csv</Name>
+    <CSVFile>PartySummary.csv</CSVFile>
+    <ChartTitles>
+      <string>PartySummary.csv (PartySummary.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Integer Sum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Line</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>3</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Day</DisplayName>
+        <SourceName>Day</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Birthday</DisplayName>
+        <SourceName>Birthday</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>Trade By Commodity</Name>
+    <CSVFile>Beverages.csv</CSVFile>
+    <ChartTitles>
+      <string>Trade By Commodity</string>
+      <string>Over 4 years</string>
+    </ChartTitles>
+    <AggregatorName>Sum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Spline</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>3</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Commodity</DisplayName>
+        <SourceName>Commodity</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Year</DisplayName>
+        <SourceName>Year</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Trade (USD)</DisplayName>
+        <SourceName>Trade (USD)</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>Beverages.csv</Name>
+    <CSVFile>Beverages.csv</CSVFile>
+    <ChartTitles>
+      <string>Beverages.csv (Beverages.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Sum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>9</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Year</DisplayName>
+        <SourceName>Year</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Flow</DisplayName>
+        <SourceName>Flow</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Trade (USD)</DisplayName>
+        <SourceName>Trade (USD)</SourceName>
         <Index>0</Index>
         <UniqueValues>0</UniqueValues>
         <ColumnValues />
