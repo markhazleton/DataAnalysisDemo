@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDataGridVisualization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGridVisualization>
+    <Name>Beverages.csv</Name>
+    <CSVFile>Beverages.csv</CSVFile>
+    <ChartTitles>
+      <string>Beverages.csv (Beverages.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Sum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>0</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Year</DisplayName>
+        <SourceName>Year</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Flow</DisplayName>
+        <SourceName>Flow</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Trade (USD)</DisplayName>
+        <SourceName>Trade (USD)</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>Trade By Commodity</Name>
+    <CSVFile>Beverages.csv</CSVFile>
+    <ChartTitles>
+      <string>Trade By Commodity</string>
+      <string>Over 4 years</string>
+    </ChartTitles>
+    <AggregatorName>Sum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>10</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Commodity</DisplayName>
+        <SourceName>Commodity</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Year</DisplayName>
+        <SourceName>Year</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Trade (USD)</DisplayName>
+        <SourceName>Trade (USD)</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>legislators.csv</Name>
+    <CSVFile>legislators.csv</CSVFile>
+    <ChartTitles>
+      <string>Legislators By Party and Gender</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Average</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Column</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>0</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>gender</DisplayName>
+        <SourceName>gender</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>party</DisplayName>
+        <SourceName>party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>in_office</DisplayName>
+        <SourceName>in_office</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>Average Age by Party / Province</Name>
+    <CSVFile>mps.csv</CSVFile>
+    <ChartTitles>
+      <string> Parliament of Canada </string>
+      <string>Average Age By Party and Province</string>
+    </ChartTitles>
+    <AggregatorName>Average</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>11</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/slider_img_3.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Party</DisplayName>
+        <SourceName>Party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Province</DisplayName>
+        <SourceName>Province</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Age</DisplayName>
+        <SourceName>Age</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>Average Age by Gender/Party</Name>
+    <CSVFile>mps.csv</CSVFile>
+    <ChartTitles>
+      <string> Parliament of Canada </string>
+      <string>Average Age By Party and Province</string>
+    </ChartTitles>
+    <AggregatorName>Average</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>StackedBar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>7</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/slider_img_2.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Party</DisplayName>
+        <SourceName>Party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Gender</DisplayName>
+        <SourceName>Gender</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Age</DisplayName>
+        <SourceName>Age</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>SouthlakeCodeEnforcement.csv</Name>
+    <CSVFile>SouthlakeCodeEnforcement.csv</CSVFile>
+    <ChartTitles>
+      <string>SouthlakeCodeEnforcement.csv (SouthlakeCodeEnforcement.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Area Chart</rendererName>
+    <ChartType>Radar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>0</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>TYPE</DisplayName>
+        <SourceName>TYPE</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>TASK</DisplayName>
+        <SourceName>TASK</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>STATUS</DisplayName>
+        <SourceName>STATUS</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>GenderByPartyAverageYearsInOffice</Name>
+    <CSVFile>legislators.csv</CSVFile>
+    <ChartTitles>
+      <string>Legislators By Party and Gender</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count as Fraction of Columns</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Area</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>party</DisplayName>
+        <SourceName>party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>gender</DisplayName>
+        <SourceName>gender</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName />
+        <SourceName />
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>TypeByDay</Name>
+    <CSVFile>reservation.csv</CSVFile>
+    <ChartTitles>
+      <string>TypeByDay (reservation.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>StackedBar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>12</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>DisplayTypeTitle</DisplayName>
+        <SourceName>DisplayTypeTitle</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>WeekDay</DisplayName>
+        <SourceName>WeekDay</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName />
+        <SourceName />
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>DisplayTypeTitle</DisplayName>
+        <SourceName>DisplayTypeTitle</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "5.99 16 tokens per child"</string>
+          <string>
+      "6.49 16 tokens per child"</string>
+          <string>
+      "6.99 16 tokens per child"</string>
+          <string>
+      "7.99 16 tokens per child"</string>
+          <string>
+      "8.99 16 tokens Canada per child"</string>
+          <string>
+      "8.99 16 tokens per child"</string>
+          <string>
+      "MEGA SUPER STAR"</string>
+          <string>
+      "Non-Profit Fund Raising Event"</string>
+          <string>
+      "School Fund Raising Event"</string>
+          <string>
+      "STAR"</string>
+          <string>
+      "SUPER STAR"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>DisplayTypeTitle</DisplayName>
+        <SourceName>DisplayTypeTitle</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "5.99 16 tokens per child"</string>
+          <string>
+      "6.49 16 tokens per child"</string>
+          <string>
+      "6.99 16 tokens per child"</string>
+          <string>
+      "7.99 16 tokens per child"</string>
+          <string>
+      "8.99 16 tokens Canada per child"</string>
+          <string>
+      "8.99 16 tokens per child"</string>
+          <string>
+      "MEGA SUPER STAR"</string>
+          <string>
+      "Non-Profit Fund Raising Event"</string>
+          <string>
+      "School Fund Raising Event"</string>
+          <string>
+      "STAR"</string>
+          <string>
+      "SUPER STAR"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </IncludeValues>
+    <ExcluedValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>DisplayTypeTitle</DisplayName>
+        <SourceName>DisplayTypeTitle</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "NULL"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>DisplayTypeTitle</DisplayName>
+        <SourceName>DisplayTypeTitle</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "NULL"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </ExcluedValues>
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>reservation.csv</Name>
+    <CSVFile>reservation.csv</CSVFile>
+    <ChartTitles />
+    <AggregatorName>Average</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Point</ChartType>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>DisplayTypeTitle</DisplayName>
+        <SourceName>DisplayTypeTitle</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>WeekDay</DisplayName>
+        <SourceName>WeekDay</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>TotalAmount</DisplayName>
+        <SourceName>TotalAmount</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Birthday"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationStatus</DisplayName>
+        <SourceName>ReservationStatus</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Booked"</string>
+          <string>
+      "Changed"</string>
+          <string>
+      "Confirmed"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </IncludeValues>
+    <ExcluedValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationType</DisplayName>
+        <SourceName>ReservationType</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Fundraiser"</string>
+          <string>
+      "Organizational"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>ReservationStatus</DisplayName>
+        <SourceName>ReservationStatus</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Cancelled"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </ExcluedValues>
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>adult.csv</Name>
+    <CSVFile>adult.csv</CSVFile>
+    <ChartTitles>
+      <string>adult.csv (adult.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>income</DisplayName>
+        <SourceName>income</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>education</DisplayName>
+        <SourceName>education</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>TitanticManifest.csv</Name>
+    <CSVFile>TitanticManifest.csv</CSVFile>
+    <ChartTitles>
+      <string>TitanticManifest.csv (TitanticManifest.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>RangeBar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Survived</DisplayName>
+        <SourceName>Survived</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Pclass</DisplayName>
+        <SourceName>Pclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Sex</DisplayName>
+        <SourceName>Sex</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>ClassIncome</Name>
+    <CSVFile>adult.csv</CSVFile>
+    <ChartTitles>
+      <string>Class Income</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Polar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>income</DisplayName>
+        <SourceName>income</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Federal-gov"</string>
+          <string>
+      "Local-gov"</string>
+          <string>
+      "Private"</string>
+          <string>
+      "Self-emp-inc"</string>
+          <string>
+      "Self-emp-not-inc"</string>
+          <string>
+      "State-gov"</string>
+          <string>
+      "Without-pay"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </IncludeValues>
+    <ExcluedValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "?"</string>
+          <string>
+      "Never-worked"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </ExcluedValues>
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>MarkTest</Name>
+    <CSVFile>SouthlakeCodeEnforcement.csv</CSVFile>
+    <ChartTitles>
+      <string>MarkTest (SouthlakeCodeEnforcement.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Row Heatmap</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>0</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>STATUS</DisplayName>
+        <SourceName>STATUS</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>TASK</DisplayName>
+        <SourceName>TASK</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>TYPE</DisplayName>
+        <SourceName>TYPE</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName />
+        <SourceName />
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>mps.csv</Name>
+    <CSVFile>mps.csv</CSVFile>
+    <ChartTitles>
+      <string>Average Age by Party and Gender</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Minimum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Line</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>0</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Party</DisplayName>
+        <SourceName>Party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Gender</DisplayName>
+        <SourceName>Gender</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Province</DisplayName>
+        <SourceName>Province</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Age</DisplayName>
+        <SourceName>Age</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>bob</Name>
+    <CSVFile>mps.csv</CSVFile>
+    <ChartTitles>
+      <string>Average Age by Party and Gender</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Average</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Column</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>3</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Party</DisplayName>
+        <SourceName>Party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Province</DisplayName>
+        <SourceName>Province</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Age</DisplayName>
+        <SourceName>Age</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>PartySummary.csv</Name>
+    <CSVFile>PartySummary.csv</CSVFile>
+    <ChartTitles>
+      <string>PartySummary.csv (PartySummary.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Integer Sum</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Column</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Day</DisplayName>
+        <SourceName>Day</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>AvgBirthdayChildren</DisplayName>
+        <SourceName>AvgBirthdayChildren</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Birthday</DisplayName>
+        <SourceName>Birthday</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>SaturdayOrders.csv</Name>
+    <CSVFile>SaturdayOrders.csv</CSVFile>
+    <ChartTitles />
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Point</ChartType>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Package</DisplayName>
+        <SourceName>Package</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>Price Per Child</DisplayName>
+        <SourceName>Price Per Child</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName />
+        <SourceName />
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+</ArrayOfDataGridVisualization>

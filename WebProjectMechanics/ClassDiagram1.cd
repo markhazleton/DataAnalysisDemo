@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebProjectMechanics.pmImage" Collapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAgBAAAARAjABAAAEARAAAACQEAAAAQoAEAAAA=</HashCode>
+      <FileName>Application\pmImage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.Article" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACQAAABIBIQAgFAABABEAOCAAACAAEAgABAQAAEAAA=</HashCode>
+      <FileName>Article\Article.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.ArticleList" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAEAAgAAAAAAQAAgAgAgACAAEAEAAAAAACCAA=</HashCode>
+      <FileName>Article\ArticleList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ActiveCompany" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQaBBUIgAIIBDID4AQAhAkI0QBgLjwAEAAAAUQlgoUg=</HashCode>
+      <FileName>Company\ActiveCompany.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.Company" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gUCAxMAIBA8QkDIqYFMgADQMBgmMjFCkAIDKAicxiwA=</HashCode>
+      <FileName>Company\Company.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.CompanyDefaultOrderCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Company\CompanyDefaultOrderCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.CompanyImageList" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAAAAACQAAgAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Company\CompanyImageList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.DomainConfiguration" Collapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAKAAAAABAAAAAAIAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Company\DomainConfiguration.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.DomainConfigurations" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Company\DomainConfigurations.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.FlashGame" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAEBBACgRAAEgAAAAESAABGAEEAAEAQAAAEACAA=</HashCode>
+      <FileName>FlashGame\FlashGame.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.FlashGameList" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAAAAAAAAgggAAAAAAAAAAAAgAQAQACAA=</HashCode>
+      <FileName>FlashGame\FlashGameList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationImage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAASQIAgVABBIACAJACAQCBhAFgAAAAgAAEABA=</HashCode>
+      <FileName>Image\LocationImage.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationImageAdapter" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAARAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAA=</HashCode>
+      <FileName>Image\LocationImageAdapter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationImageList" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jAABAAAAAAFEIoAIQACSBAIAACIkBBKVIDAMBAQgwAk=</HashCode>
+      <FileName>Image\LocationImageList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationImagePresenter" Collapsed="true">
+    <Position X="32.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQgAgAAAAAAAAAAAAEAAAAAAAAAQQAAABAAA=</HashCode>
+      <FileName>Image\LocationImagePresenter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.pmImageNew" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAgBCAAARAjABAAAEARAAAAAQEAAAAQoAEAAAA=</HashCode>
+      <FileName>Image\pmImageNew.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.Location">
+    <Position X="2.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ohQAAACACBGAhYQgiIYgCQBECBACgBBAgxiBABACACA=</HashCode>
+      <FileName>Location\Location.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationDefaultOrderCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Location\LocationDefaultOrderCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationNameCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Location\LocationDefaultOrderCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationGroup">
+    <Position X="40.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Location\LocationGroup.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationGroupList">
+    <Position X="38.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Location\LocationGroupList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationKeyword" Collapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Location\LocationKeyword.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationKeywordDefaultOrderCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Location\LocationKeywordDefaultOrderCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationKeywordList" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAQAAAAQQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Location\LocationKeywordList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationKeywordPredicateClass" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Location\LocationKeywordPredicateClass.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationList" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQABAiEEAEAAAEBAAEAIAACCAgCGAQEQAAIBAAAAIEw=</HashCode>
+      <FileName>Location\LocationList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationModifiedDateCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Location\LocationModifiedDateCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationPageNameCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Location\LocationPageNameCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationRecordSourceCompare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Location\LocationRecordSourceCompare.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationTrail" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAgAAAAAAAAAAQAABAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Location\LocationTrail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.SiteMapXmlTextWriter" Collapsed="true">
+    <Position X="32.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAQIAAEAAAAAAAAAAACAAAAAAAAABA=</HashCode>
+      <FileName>Location\SiteMapXmlTextWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationAlias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAIgAAAAAAAQAACAAAAAAAAABIAAAQRCAQA=</HashCode>
+      <FileName>LocationAlias\LocationAlias.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.LocationAliasList" Collapsed="true">
+    <Position X="30.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAoAAAAAAAAAEAAABIAAAAAAAAAAAQA=</HashCode>
+      <FileName>LocationAlias\LocationAliasList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationHistory" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAQAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>LocationHistory\LocationHistory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationHistoryList" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>LocationHistory\LocationHistoryList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LocationHistorySession" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAWAEQAQAAAJAIAAAAAAEAAAhKAkhAABAIABAUEiAA=</HashCode>
+      <FileName>LocationHistory\LocationHistorySession.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.Parameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEBBAAACAIAwAAhAAAiAAAAAYAAAACAAAAAAAAAACA=</HashCode>
+      <FileName>Parameter\Parameter.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.ParameterList" Collapsed="true">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAAAgAg=</HashCode>
+      <FileName>Parameter\ParameterList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.Part" Collapsed="true">
+    <Position X="28.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYAAAAAiAIgAUADAAAAAAgAACABACSAAQIAAAAAAAA=</HashCode>
+      <FileName>Part\Part.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.PartBusinessLogic" Collapsed="true">
+    <Position X="30.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAgQAEAAAAAAACAAAIAAAABAAAA=</HashCode>
+      <FileName>Part\PartBusinessLogic.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.PartCategory" Collapsed="true">
+    <Position X="32.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAggAAAAAAAgAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Part\PartCategory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.PartCategoryList" Collapsed="true">
+    <Position X="34" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Part\PartCategoryList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.PartDirectory" Collapsed="true">
+    <Position X="35.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAoABqAAQAQAYBCAQANiIFAaMAAQAAnAILAgRCggAA=</HashCode>
+      <FileName>Part\PartDirectory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.PartEditControllor" Collapsed="true">
+    <Position X="21.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAAAAAAAAAAAAAAAAAAAAACACAAAIAACAAAAAA=</HashCode>
+      <FileName>Part\PartEditControllor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.PartList" Collapsed="true">
+    <Position X="23.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgACAEAAAAAAAAAAAAAAAwBAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Part\PartList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.UserInfo" Collapsed="true">
+    <Position X="25.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAUAEmAAAAAAABAAEAAAAAgAIAAAAAACAggCAgAABAg=</HashCode>
+      <FileName>SDK\UserInfo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.SiteTemplate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAQAEAAgAAAAAAACIAAAABAA=</HashCode>
+      <FileName>SiteTemplate.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.ApplicationLogging" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAEAAAJCAAAIAAMEAIAABAAAQAAAAAIRAAQAAAhA=</HashCode>
+      <FileName>Utility\ApplicationLogging.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ApplicationMembershipProvider" Collapsed="true">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQACACIAYAGwUiMHYAEAgBQAyIAAA6CHCEAAImAAAQ=</HashCode>
+      <FileName>Utility\ApplicationMembershipProvider.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ConfigurationBase" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAACgBAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\ConfigurationBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.wpm_DataGrid" Collapsed="true">
+    <Position X="35.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAEAAAAAAgAAAAAABAAAAAAAAAAQAgAA=</HashCode>
+      <FileName>Utility\DisplayTable\DataGrid.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.DisplayTableHeader" Collapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAABAAAAAAAAAAAAAEAIgIBBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\DisplayTable\DisplayTableHeader.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.DisplayTableHeaderItem" Collapsed="true">
+    <Position X="30.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAhAgAAAAAAQAAAAQAAAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Utility\DisplayTable\DisplayTableHeaderItem.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.Evaluator" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAggAAAAAAAAAACAAAAAAAAAAAACAAAAAAAAAEA=</HashCode>
+      <FileName>Utility\Eval\Evaluator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.EvalVariable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAQAAAgAAAIAAAACAQAAFAEAAAAAAggAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\EvalVariable.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.opCode" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAgAAAAAIQAAAQBAEAAACAAAAAAAAEMAAA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeVariable" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeImmediate" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAABAEAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeUnary" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAABAAgAAAAAAAQAAAAgQ=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeConvert" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAACAAAAABAAgAAAAAAAAgAAIgA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeSystemTypeConvert" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAAAAAIQAAAAAAAABAAgAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeBinary" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCgABAAADABAAEAAAQABAQBAABAAgAIAAEgAgAAAEgA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeGetVariable" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAgA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeCallMethod" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAADAQBiASABAAAUAAAACAAgAAgAAAAQAMgQAAgAAA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.opCodeGetArrayEntry" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAICAAAAAAAAAAAAAgAAAAQAAgQAAgAAA=</HashCode>
+      <FileName>Utility\Eval\opCode.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.parser" Collapsed="true">
+    <Position X="27" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAADCAAQAAAAAAQAgAABAAAAAAAAICAQAAAAAA=</HashCode>
+      <FileName>Utility\Eval\Parser.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.tokenizer" Collapsed="true">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAQAAAABAIAEAECEAAggAAAABASAAAQAAAAAABAI=</HashCode>
+      <FileName>Utility\Eval\tokenizer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.VariableNotFoundException" Collapsed="true">
+    <Position X="34" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\VariableNotFoundException.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.FileConfig" Collapsed="true">
+    <Position X="8.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAwAAAFAAEAAACAAAAgAAgEAAgAAAAQABCQEAA=</HashCode>
+      <FileName>Utility\FileConfig.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WebProjectMechanics.AjaxCallSignature" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQQAIAEAAAIBCAAAAAAAAAAIAAQAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\AjaxCallSignature.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ApplicationHttpModule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAAAAgIAAEIACAAACAAIAAAA=</HashCode>
+      <FileName>Utility\HttpModule\ApplicationHttpModule.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.BaseHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAIABAAMBShEABAAAAABAAAgFAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\BaseHandler.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.HttpPutAttribute" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\HttpDeleteAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.HttpGetAttribute" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\HttpGetAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.HttpPostAttribute" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\HttpPostAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.HttpDeleteAttribute" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\HttpPutAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.HttpVerbAttribute" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\HttpVerbAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.HttpVerbNotAllowedException" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\HttpVerbNotAllowed.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.OnMethodInvokeArgs" Collapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\OnMethodInvokeArgs.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.RequireAuthenticationAttribute" Collapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\HttpModule\RequireAuthenticationAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.LookupItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Utility\LookupItem.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.SiteConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAwAAAFAAEAAACAAAAgAAgEAAgAAAAQABCQEAA=</HashCode>
+      <FileName>Utility\SiteConfig.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.SQLFilterClause" Collapsed="true">
+    <Position X="35.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAAAAAAAAAEAAAACAAAAAAACIAAAAAAAgAA=</HashCode>
+      <FileName>Utility\SQLHelper\SQLFilterClause.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.SQLFilterList" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAQAQAAAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Utility\SQLHelper\SQLFilterList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.AdminPage">
+    <Position X="5.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAADAAAAAAAQAAAAACAAIAAAAAAA=</HashCode>
+      <FileName>Utility\UIBase\AdminPage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ApplicationMasterPage" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAABABAAABCgAAAgAAAAA=</HashCode>
+      <FileName>Utility\UIBase\ApplicationMasterPage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ApplicationPage">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgAAAEAAAAAAEAAAACEAwAAABQAQAAgAIEAA=</HashCode>
+      <FileName>Utility\UIBase\ApplicationPage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.ApplicationUserControl" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EiAjAAASAAYAAAQgkAAAAQBEIAAgAAgBABCAAAVIAAE=</HashCode>
+      <FileName>Utility\UIBase\ApplicationUserControl.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.UtilityItemForCollection" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\UtilityItemForCollection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.UtilityMailer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAIAAgAIAAAAABIACAAAEAEAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Utility\UtilityMailer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.UtilityRSSFeed" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAEGACEAAAAAIhAAABAAAAACAAAQBQAQCgCAAAA=</HashCode>
+      <FileName>Utility\UtilityRSSFeed.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WebProjectMechanics.UtilityRSSTools" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\UtilityRSSTools.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.UtilityXMLDocument" Collapsed="true">
+    <Position X="32.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAAAAAAIAAAAIgEACCAAAAAAAAAAAgQAAAAAAAE=</HashCode>
+      <FileName>Utility\UtilityXMLDocument.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebProjectMechanics.My.MySettings" Collapsed="true">
+    <Position X="35.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WebProjectMechanics.ResponseContentTypes" Collapsed="true">
+    <Position X="21.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAGAAIBCAAAAEAAACCAQAEAAAgAAQIAAgAABAA=</HashCode>
+      <FileName>Utility\HttpModule\ResponseContentTypes.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="WebProjectMechanics.IArticle" Collapsed="true">
+    <Position X="25.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABABIAAgEAAAABEAOCAAAAAAEAgABAQAAAAAA=</HashCode>
+      <FileName>Article\IArticle.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IArticleDisplay" Collapsed="true">
+    <Position X="27" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Article\IArticleDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IArticleEdit" Collapsed="true">
+    <Position X="28.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABABIAAgEAAAABEgOCAIAAAAEAgQBAQAAAAAE=</HashCode>
+      <FileName>Article\IArticleEdit.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ICompany" Collapsed="true">
+    <Position X="30.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAYAABAiAFAgAAAMAAAIgACAAADCAiEAAQA=</HashCode>
+      <FileName>Company\ICompany.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ICompanyUserControl" Collapsed="true">
+    <Position X="32.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgQAA=</HashCode>
+      <FileName>Company\ICompanyUserControl.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILocationImage" Collapsed="true">
+    <Position X="32.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACQAAgEAAAIAAAJACAgCAhAEgAAAAgAAEABA=</HashCode>
+      <FileName>Image\ILocationImage.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILocation" Collapsed="true">
+    <Position X="27" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhQAAACACBGAhYAggIYgCQBECBACgBBAgxiBABACAAA=</HashCode>
+      <FileName>Location\ILocation.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILocationAlias" Collapsed="true">
+    <Position X="28.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAABAAQA=</HashCode>
+      <FileName>LocationAlias\ILocationAlias.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IPart" Collapsed="true">
+    <Position X="23.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQACAAACAIgAUACAAAAAAgAACABAACAAQIAAAAAAAA=</HashCode>
+      <FileName>Part\IPart.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IPartDisplay" Collapsed="true">
+    <Position X="25.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Part\IPartDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IPartEdit" Collapsed="true">
+    <Position X="27" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQACAAACAIgAUACAAAABggAAKABAgCAARIAABAAAAE=</HashCode>
+      <FileName>Part\IPartEdit.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IConfig" Collapsed="true">
+    <Position X="34" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQAwAAAFAAEAAACAAAAgAAgEAAgAAAAQABCQEAA=</HashCode>
+      <FileName>SDK\IConfig.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILocationDisplay" Collapsed="true">
+    <Position X="30.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SDK\ILocationDisplay.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILocationKeywordPredicateClass" Collapsed="true">
+    <Position X="34" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>SDK\ILocationKeywordPredicateClass.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ISiteTemplate" Collapsed="true">
+    <Position X="28.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAACAAAAABAA=</HashCode>
+      <FileName>SDK\ISiteTemplate.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IUtilityMailer" Collapsed="true">
+    <Position X="30.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIAAgAIAAAAABIAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SDK\IUtilityMailer.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.Icontrols_DisplayTable" Collapsed="true">
+    <Position X="35.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\DisplayTable\Icontrols_DisplayTable.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IHTMLControl" Collapsed="true">
+    <Position X="25.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\DisplayTable\Icontrols_DisplayTable.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.iEvalFunctions" Collapsed="true">
+    <Position X="21.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\iEvalFunctions.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.iEvalHasDescription" Collapsed="true">
+    <Position X="23.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\iEvalHasDescription.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.iEvalTypedValue">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Utility\Eval\iEvalTypedValue.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.iEvalValue">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\iEvalValue.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.iVariableBag" Collapsed="true">
+    <Position X="32.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Utility\Eval\iVariableBag.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILookup" Collapsed="true">
+    <Position X="35.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Utility\ILookup.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.ILookupItemList" Collapsed="true">
+    <Position X="21.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAA=</HashCode>
+      <FileName>Utility\ILookupItemList.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IApplicationFilter" Collapsed="true">
+    <Position X="21.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\UIBase\IApplicationFilter.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WebProjectMechanics.IApplicationList" Collapsed="true">
+    <Position X="23.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\UIBase\IApplicationList.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WebProjectMechanics.LocationSource" Collapsed="true">
+    <Position X="28.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAQAAAAAAAAAAAAEAAAABAAAAAAAAAACAA=</HashCode>
+      <FileName>Location\LocationSource.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.ePriority" Collapsed="true">
+    <Position X="23.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAACAAAAAAAAAAAAAAIAAAACBAAgAICAAAABAAAAA=</HashCode>
+      <FileName>Utility\Eval\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.VariableComplexity" Collapsed="true">
+    <Position X="35.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.EvalType" Collapsed="true">
+    <Position X="27" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAgQEAAAAAAAAAAAAABAAAAAAAAABA=</HashCode>
+      <FileName>Utility\Eval\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.eParserSyntax" Collapsed="true">
+    <Position X="21.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Eval\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.eTokenType" Collapsed="true">
+    <Position X="25.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAIAEAFQIAQAAoARogTZAAAAEABAACAIAQEIAQAA=</HashCode>
+      <FileName>Utility\Eval\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.SQLFilterConjunction" Collapsed="true">
+    <Position X="30.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAA=</HashCode>
+      <FileName>Utility\SQLHelper\SQLFilterConjunction.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.SQLFilterOperator" Collapsed="true">
+    <Position X="32.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAgAAAAAAAgIAAAAAAgAACAAIAAAAAAAQAADA=</HashCode>
+      <FileName>Utility\SQLHelper\SQLFilterOperator.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WebProjectMechanics.UtilitySortDirection" Collapsed="true">
+    <Position X="34" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Utility\UtilitySortDirection.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="WebProjectMechanics.Globals" Collapsed="true">
+    <Position X="30.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAAAAACAAAAAAACAABAACAAAgAAIAA=</HashCode>
+      <FileName>Utility\Eval\Globals.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.ExceptionUtility" Collapsed="true">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\ExceptionUtility.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.FileProcessing" Collapsed="true">
+    <Position X="28.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEQIAAACIAwABEBCQEAIgAoAACAAIIAAEABABFDIA=</HashCode>
+      <FileName>Utility\FileProcessing.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.App" Collapsed="true">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hv6Kq4HAFCEAwQATKHGCG4ToKxjBSkkAHYGBGiyJcyw=</HashCode>
+      <FileName>Utility\Modules\App.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.ApplicationDAL" Collapsed="true">
+    <Position X="23.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAR4IEIAQAIAAAAEAAQAAAAAQACAoAAQAQIAKAAAA=</HashCode>
+      <FileName>Utility\Modules\ApplicationDAL.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.ApplicationUser" Collapsed="true">
+    <Position X="25.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Utility\Modules\ApplicationUser.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.LocationBuildHTML" Collapsed="true">
+    <Position X="32.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAQACIAAAAAAAAAAAAAEAgAAAwgAAEAAAA=</HashCode>
+      <FileName>Utility\Modules\LocationBuildHTML.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.Utility" Collapsed="true">
+    <Position X="21.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAUABAggCAAACAAISJAIBIAATgCAJIAEAIYCKAgBE=</HashCode>
+      <FileName>Utility\Modules\Utility.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.UtilityDB" Collapsed="true">
+    <Position X="23.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABgQAAAAAACAAAAAAAAAAAAAAAAAAAAEABjA=</HashCode>
+      <FileName>Utility\Modules\UtilityDB.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.UtilityHTML" Collapsed="true">
+    <Position X="25.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAQAAAAAACAEABAAAAAIAAAAIAIIA=</HashCode>
+      <FileName>Utility\Modules\UtilityHTML.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.My.Resources.Resources" Collapsed="true">
+    <Position X="35.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="WebProjectMechanics.My.MySettingsProperty" Collapsed="true">
+    <Position X="34" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
