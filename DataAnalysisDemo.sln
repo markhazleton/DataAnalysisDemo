@@ -29,6 +29,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dawpm", "dawpm\", "{8EF3248
 		SlnRelativePath = "dawpm\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2AE673F4-4D4A-4F50-92CD-FE218CED3C80}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
