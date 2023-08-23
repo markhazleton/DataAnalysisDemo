@@ -740,59 +740,6 @@
     <SeriesDataList />
   </DataGridVisualization>
   <DataGridVisualization>
-    <Name>adult.csv</Name>
-    <CSVFile>adult.csv</CSVFile>
-    <ChartTitles>
-      <string>adult.csv (adult.csv)</string>
-      <string />
-    </ChartTitles>
-    <AggregatorName>Count</AggregatorName>
-    <rendererName>Table</rendererName>
-    <ChartType>Bar</ChartType>
-    <ChartStyle>2D</ChartStyle>
-    <ChartPalette>1</ChartPalette>
-    <ChartWidth>0</ChartWidth>
-    <ChartHeight>0</ChartHeight>
-    <BackgroundImage />
-    <Cols>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>income</DisplayName>
-        <SourceName>income</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Cols>
-    <Rows>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>education</DisplayName>
-        <SourceName>education</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Rows>
-    <Vals>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Vals>
-    <FilterColumn>
-      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-      <Index>0</Index>
-      <UniqueValues>0</UniqueValues>
-      <ColumnValues />
-    </FilterColumn>
-    <IncludeValues />
-    <ExcluedValues />
-    <SeriesDataList />
-  </DataGridVisualization>
-  <DataGridVisualization>
     <Name>TitanticManifest.csv</Name>
     <CSVFile>TitanticManifest.csv</CSVFile>
     <ChartTitles>
@@ -851,99 +798,6 @@
     </FilterColumn>
     <IncludeValues />
     <ExcluedValues />
-    <SeriesDataList />
-  </DataGridVisualization>
-  <DataGridVisualization>
-    <Name>ClassIncome</Name>
-    <CSVFile>adult.csv</CSVFile>
-    <ChartTitles>
-      <string>Class Income</string>
-      <string />
-    </ChartTitles>
-    <AggregatorName>Count</AggregatorName>
-    <rendererName>Table</rendererName>
-    <ChartType>Polar</ChartType>
-    <ChartStyle>2D</ChartStyle>
-    <ChartPalette>1</ChartPalette>
-    <ChartWidth>0</ChartWidth>
-    <ChartHeight>0</ChartHeight>
-    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
-    <Cols>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>income</DisplayName>
-        <SourceName>income</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Cols>
-    <Rows>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>workclass</DisplayName>
-        <SourceName>workclass</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Rows>
-    <Vals>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Vals>
-    <FilterColumn>
-      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-      <Index>0</Index>
-      <UniqueValues>0</UniqueValues>
-      <ColumnValues />
-    </FilterColumn>
-    <IncludeValues>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>workclass</DisplayName>
-        <SourceName>workclass</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues>
-          <string>
-      "Federal-gov"</string>
-          <string>
-      "Local-gov"</string>
-          <string>
-      "Private"</string>
-          <string>
-      "Self-emp-inc"</string>
-          <string>
-      "Self-emp-not-inc"</string>
-          <string>
-      "State-gov"</string>
-          <string>
-      "Without-pay"
-    </string>
-        </ColumnValues>
-      </GridColumn>
-    </IncludeValues>
-    <ExcluedValues>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>workclass</DisplayName>
-        <SourceName>workclass</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues>
-          <string>
-      "?"</string>
-          <string>
-      "Never-worked"
-    </string>
-        </ColumnValues>
-      </GridColumn>
-    </ExcluedValues>
     <SeriesDataList />
   </DataGridVisualization>
   <DataGridVisualization>
@@ -1324,6 +1178,198 @@
         <ColumnDisplayFormat>Number</ColumnDisplayFormat>
         <DisplayName>Trade (USD)</DisplayName>
         <SourceName>Trade (USD)</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>ClassIncome</Name>
+    <CSVFile>adult.csv</CSVFile>
+    <ChartTitles>
+      <string>Class Income</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Column</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>0</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/slider_img_1.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>income</DisplayName>
+        <SourceName>income</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Federal-gov"</string>
+          <string>
+      "Local-gov"</string>
+          <string>
+      "Private"</string>
+          <string>
+      "Self-emp-inc"</string>
+          <string>
+      "Self-emp-not-inc"</string>
+          <string>
+      "State-gov"</string>
+          <string>
+      "Without-pay"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "Federal-gov"</string>
+          <string>
+      "Local-gov"</string>
+          <string>
+      "Private"</string>
+          <string>
+      "Self-emp-inc"</string>
+          <string>
+      "Self-emp-not-inc"</string>
+          <string>
+      "State-gov"</string>
+          <string>
+      "Without-pay"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </IncludeValues>
+    <ExcluedValues>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "?"</string>
+          <string>
+      "Never-worked"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>workclass</DisplayName>
+        <SourceName>workclass</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues>
+          <string>
+      "?"</string>
+          <string>
+      "Never-worked"
+    </string>
+        </ColumnValues>
+      </GridColumn>
+    </ExcluedValues>
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>adult.csv</Name>
+    <CSVFile>adult.csv</CSVFile>
+    <ChartTitles>
+      <string>adult.csv (adult.csv)</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Bar</ChartType>
+    <ChartStyle>2D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage />
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>income</DisplayName>
+        <SourceName>income</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>relationship</DisplayName>
+        <SourceName>relationship</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>sex</DisplayName>
+        <SourceName>sex</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
         <Index>0</Index>
         <UniqueValues>0</UniqueValues>
         <ColumnValues />

@@ -9,7 +9,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebProjectMechanics", "WebP
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dawpm", "dawpm\", "{8EF32487-98A3-49A6-8238-FE9D69A679DA}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
 		ProjectReferences = "{add325f8-cbd9-43fe-850d-e2f34d736c9d}|GenericParsing.dll;{dfc8d22e-84d9-4d6a-9d61-e8f1a20e8a17}|WebProjectMechanics.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52741"
 		Debug.AspNetCompiler.PhysicalPath = "dawpm\"

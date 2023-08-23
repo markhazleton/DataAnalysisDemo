@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.3.1",
+      "destination": "lib/bootstrap/",
+      "files": [
+        "css/bootstrap-utilities.css",
+        "css/bootstrap.css",
+        "css/bootstrap-grid.css",
+        "css/bootstrap.rtl.css",
+        "css/bootstrap-reboot.css",
+        "js/bootstrap.esm.js",
+        "js/bootstrap.js",
+        "js/bootstrap.bundle.js"
+      ]
+    },
+    {
+      "library": "jquery@3.7.0",
+      "destination": "lib/jquery/"
+    }
+  ]
+}
