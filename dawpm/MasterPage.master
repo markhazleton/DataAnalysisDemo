@@ -85,7 +85,9 @@
                 <div class="col-lg-12 text-center">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            Data Analytics Demo is a <a class="text-info" href="https://markhazleton.controlorigins.com" target="_new">Mark Hazleton</a> project. 
+                            Data Analytics Demo is a <a class="text-info" href="https://markhazleton.com" target="_new">Mark Hazleton</a> project. 
+                            <br />
+                            Data Analytics Demo source code is on GitHub <a class="text-info" href="https://github.com/markhazleton/DataAnalysisDemo" target="_new">https://github.com/markhazleton/DataAnalysisDemo</a> 
                         </div>
                     </div>
 
