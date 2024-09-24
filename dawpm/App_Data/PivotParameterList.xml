@@ -227,61 +227,6 @@
     <SeriesDataList />
   </DataGridVisualization>
   <DataGridVisualization>
-    <Name>GenderByPartyAverageYearsInOffice</Name>
-    <CSVFile>legislators.csv</CSVFile>
-    <ChartTitles>
-      <string>Legislators By Party and Gender</string>
-      <string />
-    </ChartTitles>
-    <AggregatorName>Count as Fraction of Columns</AggregatorName>
-    <rendererName>Table</rendererName>
-    <ChartType>Area</ChartType>
-    <ChartStyle>3D</ChartStyle>
-    <ChartPalette>1</ChartPalette>
-    <ChartWidth>0</ChartWidth>
-    <ChartHeight>0</ChartHeight>
-    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
-    <Cols>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>party</DisplayName>
-        <SourceName>party</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Cols>
-    <Rows>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName>gender</DisplayName>
-        <SourceName>gender</SourceName>
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Rows>
-    <Vals>
-      <GridColumn>
-        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-        <DisplayName />
-        <SourceName />
-        <Index>0</Index>
-        <UniqueValues>0</UniqueValues>
-        <ColumnValues />
-      </GridColumn>
-    </Vals>
-    <FilterColumn>
-      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
-      <Index>0</Index>
-      <UniqueValues>0</UniqueValues>
-      <ColumnValues />
-    </FilterColumn>
-    <IncludeValues />
-    <ExcluedValues />
-    <SeriesDataList />
-  </DataGridVisualization>
-  <DataGridVisualization>
     <Name>TypeByDay</Name>
     <CSVFile>reservation.csv</CSVFile>
     <ChartTitles>
@@ -1370,6 +1315,61 @@
     <Vals>
       <GridColumn>
         <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Vals>
+    <FilterColumn>
+      <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+      <Index>0</Index>
+      <UniqueValues>0</UniqueValues>
+      <ColumnValues />
+    </FilterColumn>
+    <IncludeValues />
+    <ExcluedValues />
+    <SeriesDataList />
+  </DataGridVisualization>
+  <DataGridVisualization>
+    <Name>GenderByPartyAverageYearsInOffice</Name>
+    <CSVFile>legislators.csv</CSVFile>
+    <ChartTitles>
+      <string>Legislators By Party and Gender</string>
+      <string />
+    </ChartTitles>
+    <AggregatorName>Count as Fraction of Columns</AggregatorName>
+    <rendererName>Table</rendererName>
+    <ChartType>Area</ChartType>
+    <ChartStyle>3D</ChartStyle>
+    <ChartPalette>1</ChartPalette>
+    <ChartWidth>0</ChartWidth>
+    <ChartHeight>0</ChartHeight>
+    <BackgroundImage>~/images/WorldGlobe.jpg</BackgroundImage>
+    <Cols>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>party</DisplayName>
+        <SourceName>party</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Cols>
+    <Rows>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName>gender</DisplayName>
+        <SourceName>gender</SourceName>
+        <Index>0</Index>
+        <UniqueValues>0</UniqueValues>
+        <ColumnValues />
+      </GridColumn>
+    </Rows>
+    <Vals>
+      <GridColumn>
+        <ColumnDisplayFormat>Number</ColumnDisplayFormat>
+        <DisplayName />
+        <SourceName />
         <Index>0</Index>
         <UniqueValues>0</UniqueValues>
         <ColumnValues />
